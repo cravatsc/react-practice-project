@@ -1,4 +1,6 @@
-export const DUMMY_MEALS = [
+import { Meal } from './MealItem';
+
+export const DUMMY_MEALS: Meal[] = [
   {
     id: 'm1',
     name: 'Sushi',

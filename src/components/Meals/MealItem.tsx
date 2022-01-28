@@ -1,4 +1,11 @@
-export const MealItem: React.FC = (props) => {
+export interface Meal {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+}
+
+export const MealItem: React.FC<Meal> = (props) => {
   return (
     <li>
       <div>
